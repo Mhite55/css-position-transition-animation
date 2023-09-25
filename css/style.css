@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+    height: 1000vh;
+}
+nav{
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue ;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    /* calc permet de faire des calculs simple dans cet exemple , il permet de centrer la div carré */
+    top: calc(50% - 50px); 
+    right: calc(50% - 50px);
+}
+.square2 {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    z-index: 1;
+    top: calc(50% - 50px); 
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: sticky;
+    z-index: 1;
+    top: 205px; 
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
