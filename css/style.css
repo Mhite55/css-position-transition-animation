@@ -43,3 +43,20 @@ nav{
     left: calc(50% - 50px);
     border-radius: 50%;
 }
+
+/* LES TRANSITIONS*/
+.round{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.round:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: aqua;
+}
